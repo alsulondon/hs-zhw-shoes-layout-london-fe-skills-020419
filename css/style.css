@@ -6,10 +6,11 @@
 img, video, audio, iframe, table, form { 
   width:100%; /* IE */
   max-width: 100%; /* FF, Safari, Chrome */
+  height: auto;
 }
 
 /* prevent the verify image on contact page from stretching */
-img.verif_img {
+.verif_img {
   width: 50px;
   height:30px;
   vertical-align: bottom;
@@ -68,16 +69,29 @@ th {
   background: #555;
   color: white;
 }
-
+div.absolute {
+  position: absolute;
+  right: 150px;
+  width: 200px;
+  height: 120px;
+  border: 3px solid green;
+} 
 input, textarea {
   display: block;
-  width: 100%;
+  width: 600%;
   padding: 5px;
   margin-bottom: 5px;
   box-shadow: 0 3px 5px #ccc;
   border: 1px solid #ccc;
 }
+div.absolute {
+  position: absolute;
+  right: 150px;
+  width: 200px;
+  height: 120px;
+  border: 3px solid green;
 
+} 
 input[type="submit"] {
   margin-top: 5px;
   width: 100px;
@@ -112,7 +126,6 @@ iframe {
 
 .shadow {
   box-shadow: 0 3px 10px #333;
-}
 
 .milk_text {
   font: bold 42px 'Elsie Swash Caps', cursive;
@@ -147,7 +160,6 @@ iframe {
   background: url(../images/header-fade.gif);
   border-bottom: 1px solid #ccc;
   text-align: center;
-}
 
 #nav_bar nav {
   border-left: 1px solid #ccc;
@@ -195,7 +207,7 @@ iframe {
   background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Opera 11.10+ */
   background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* IE10+ */
   background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
-}
+
 
 #logo h1 {
   margin: 0;
@@ -295,7 +307,6 @@ footer {
   font-size: 10px;
   color: #555;
   padding: 10px 0 20px;
-}
 
 footer a {
   color: #555;
